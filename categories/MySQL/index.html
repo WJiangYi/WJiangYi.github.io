@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: MySQL, 匠艺">
+    <meta name="keywords" content="分类: MySQL, 匠艺">
     <meta name="description" content="一个学习博客记录网站">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签: MySQL | 匠艺</title>
+    <title>分类: MySQL | 匠艺</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -249,35 +249,37 @@
 
     
 
-<div id="tags" class="container chip-container">
+<div id="category-cloud" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
             </div>
             <div class="tag-chips">
                 
                 
-                <a href="/tags/MySQL/" title="MySQL: 1">
+                
+                <a href="/categories/MySQL/" title="MySQL: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="MySQL" style="background-color: #F9EBEA;">MySQL
+                            style="background-color: #F9EBEA;">MySQL
                         <span class="tag-length">1</span>
                     </span>
                 </a>
+                
                 
             </div>
         </div>
     </div>
 </div>
 
+
     
 
     <article id="articles" class="container articles">
         <div class="row tags-posts">
             
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="MySQL" data-aos="fade-up">
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
                     <a href="/2021/02/18/mysql-luo-ji-jia-gou/">
                         <div class="card-image tag-image">
@@ -289,6 +291,15 @@
                         </div>
                     </a>
                     <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                MySQL逻辑架构
+MySQL逻辑架构总体分为四层：
+
+连接层：负责连接客户端，进行授权认证及其它的安全解决方案。
+服务层：包括连接器、查询缓存、分析器、优化器、执行器等，负责查询解析、分析、优化、缓存以及所有的内置函数（例如日期、时间、数
+                            
+                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2021-02-18
@@ -298,13 +309,23 @@
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
                                 <a href="/categories/MySQL/" class="post-category">
-                                MySQL
+                                    MySQL
                                 </a>
                                 
                                 
                             </span>
                         </div>
                     </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/MySQL/">
+                            <span class="chip bg-color">MySQL</span>
+                        </a>
+                        
+                    </div>
+                    
                 </div>
             </div>
             
